@@ -1,0 +1,18 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/assets/*
+  Cache-Control: public, max-age=604800
+
+# Test and preview hosts must never show up in search results.
+https://test.anneliesvanderstaaij.nl/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
