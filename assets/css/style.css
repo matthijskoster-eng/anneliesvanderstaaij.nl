@@ -186,7 +186,7 @@ img {
   background-image: url("../img/header.jpg");
   background-image: image-set(url("../img/header.webp") type("image/webp"), url("../img/header.jpg") type("image/jpeg"));
   background-size: cover;
-  background-position: center 60%;
+  background-position: center 35%;
 }
 
 .head-bg::before {
