@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Annelies van der Staaij">
-  <rect width="400" height="500" fill="#e9ebef"/>
-  <circle cx="200" cy="190" r="78" fill="#d3d7de"/>
-  <path d="M60 500c10-110 70-170 140-170s130 60 140 170z" fill="#d3d7de"/>
-  <text x="200" y="208" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#e8676b">AS</text>
-</svg>

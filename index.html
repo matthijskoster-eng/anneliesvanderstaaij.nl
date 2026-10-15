@@ -71,7 +71,10 @@
         <div class="animate-up">
           <div class="section-box profile">
             <div class="profile-photo">
-              <img src="/assets/img/portrait-placeholder.svg" alt="Portrait of Annelies van der Staaij" width="400" height="500">
+              <picture>
+                <source srcset="/assets/img/annelies.webp" type="image/webp">
+                <img src="/assets/img/annelies.jpg" alt="Portrait of Annelies van der Staaij" width="720" height="960">
+              </picture>
             </div>
             <div class="profile-body">
               <div class="profile-info">
@@ -83,6 +86,7 @@
                 <li><strong class="title">Experience</strong><span class="cont">Almost 20 years in complex industrial environments</span></li>
                 <li><strong class="title">Expertise</strong><span class="cont">Supply chain, procurement, project management, transformation</span></li>
                 <li><strong class="title">Based in</strong><span class="cont">The Netherlands</span></li>
+                <li data-row="languages"><strong class="title">Languages</strong><span class="cont">Dutch (native), English (fluent)</span></li>
                 <li><strong class="title">E-mail</strong><span class="cont"><a href="mailto:anneliesvanderstaaij@gmail.com">anneliesvanderstaaij@gmail.com</a></span></li>
                 <li><strong class="title">Phone</strong><span class="cont"><a href="tel:+31612240402">+31 6 1224 0402</a></span></li>
                 <li><strong class="title"><span class="button">Available</span></strong><span class="cont">Interim and project assignments, permanent leadership roles</span></li>
@@ -95,7 +99,10 @@
             </div>
           </div>
           <div class="section-txt-btn">
-            <a class="btn btn-border" href="#contact">Get in touch</a>
+            <div class="btn-group">
+              <a class="btn btn-border" href="#contact">Get in touch</a>
+              <a class="btn" href="/assets/cv/CV-Annelies-van-der-Staaij-EN.pdf" download><svg class="icon"><use href="/assets/img/icons.svg#download"/></svg>Download CV</a>
+            </div>
             <p class="lead">After more than ten years at Hitachi Construction Machinery Europe, I am ready for my next challenge.</p>
           </div>
         </div>
@@ -135,6 +142,45 @@
         </div>
       </section>
 
+      <section id="competencies" class="section">
+        <div class="animate-up">
+          <h2 class="section-title">Core competencies</h2>
+          <div class="section-box">
+            <div class="competencies">
+              <div>
+                <h3>Project &amp; transformation</h3>
+                <ul class="styled-list">
+                  <li>Project and change management</li>
+                  <li>Organisational development</li>
+                  <li>Process optimisation</li>
+                  <li>Stakeholder management</li>
+                  <li>ERP and system implementations</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Procurement &amp; supply chain</h3>
+                <ul class="styled-list">
+                  <li>Strategic procurement</li>
+                  <li>Supply chain optimisation</li>
+                  <li>TCO &amp; cost reduction</li>
+                  <li>Supplier development</li>
+                  <li>Contract management</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Leadership</h3>
+                <ul class="styled-list">
+                  <li>People-oriented leadership</li>
+                  <li>Team development</li>
+                  <li>Ownership</li>
+                  <li>Connecting people and disciplines</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="facts" class="section">
         <div class="animate-up">
           <h2 class="section-title">In numbers</h2>
@@ -150,14 +196,14 @@
               <p class="statistic-cont">Construction Machinery Europe</p>
             </div>
             <div class="statistic">
-              <div class="statistic-value">4</div>
-              <h3 class="statistic-title"><svg class="icon"><use href="/assets/img/icons.svg#layers"/></svg>Disciplines</h3>
-              <p class="statistic-cont">supply chain, procurement, project management, transformation</p>
+              <div class="statistic-value">€100M+</div>
+              <h3 class="statistic-title"><svg class="icon"><use href="/assets/img/icons.svg#layers"/></svg>Purchasing volume</h3>
+              <p class="statistic-cont">managed annually within an international supply chain</p>
             </div>
             <div class="statistic">
-              <div class="statistic-value">5</div>
-              <h3 class="statistic-title"><svg class="icon"><use href="/assets/img/icons.svg#heart"/></svg>Core values</h3>
-              <p class="statistic-cont">that guide how I work</p>
+              <div class="statistic-value">€20M+</div>
+              <h3 class="statistic-title"><svg class="icon"><use href="/assets/img/icons.svg#heart"/></svg>Annual savings</h3>
+              <p class="statistic-cont">from a transformation impacting 400+ employees</p>
             </div>
           </div>
         </div>
@@ -166,7 +212,6 @@
       <section id="experience" class="section">
         <div class="animate-up">
           <h2 class="section-title">Experience</h2>
-          <!-- To be completed from Annelies' CV: job titles, years and earlier employers. -->
           <div class="timeline">
             <div class="timeline-bar"></div>
             <div class="timeline-inner">
@@ -174,13 +219,16 @@
                 <span class="dot"></span>
                 <div class="timeline-box-inner animate-right">
                   <span class="arrow"></span>
-                  <div class="date">10+ years</div>
-                  <h3>Procurement, supply chain &amp; transformation</h3>
-                  <h4>Hitachi Construction Machinery Europe</h4>
+                  <div class="date">Apr 2023 – present</div>
+                  <h3>Procurement Manager</h3>
+                  <h4>Hitachi Construction Machinery Europe, Amsterdam</h4>
                   <ul>
-                    <li>Built and professionalised procurement</li>
-                    <li>Developed teams and processes</li>
-                    <li>Led and contributed to transformation and improvement initiatives</li>
+                    <li>Leading the transformation of the procurement organisation, including the integration of operational purchasing from Supply Chain</li>
+                    <li>Redesigning the organisation with clearly defined operational, tactical and strategic roles</li>
+                    <li>Developing Procurement into a more strategic, externally focused business partner</li>
+                    <li>Leading the ERP transition from SAP ECC to SAP S/4 for the Procure-to-Pay processes</li>
+                    <li>Delivering €6M in structural cost savings through supplier optimisation and value creation</li>
+                    <li>Leading a team of 14 professionals, responsible for an annual purchasing volume of €100M+</li>
                   </ul>
                 </div>
               </div>
@@ -188,12 +236,127 @@
                 <span class="dot"></span>
                 <div class="timeline-box-inner animate-left">
                   <span class="arrow"></span>
-                  <div class="date">Earlier</div>
-                  <h3>Supply chain, procurement &amp; project management</h3>
-                  <h4>Complex industrial environments</h4>
+                  <div class="date">Aug 2018 – Apr 2023</div>
+                  <h3>Corporate Program Manager</h3>
+                  <h4>Hitachi Construction Machinery Europe, Amsterdam</h4>
+                  <ul>
+                    <li>Coordinating a large-scale organisational transformation impacting 400+ employees and generating €20M+ in annual savings</li>
+                    <li>Leading an integrated factory transformation: production, logistics, warehousing, infrastructure and safety</li>
+                    <li>Acting as the link between project streams and the Management Board</li>
+                    <li>Recognised, together with the project team, with a President's Award from the Japanese parent company</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-left">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-right">
+                  <span class="arrow"></span>
+                  <div class="date">Dec 2017 – Jul 2018</div>
+                  <h3>Supply Chain Manager</h3>
+                  <h4>Blok Mechanische Industrie, Velsen-Noord</h4>
+                  <ul>
+                    <li>Responsible for the daily coordination between production, purchasing, material availability and logistics</li>
+                    <li>Leading a team within production preparation, purchasing and warehousing</li>
+                    <li>Stabilising material flows and improving the purchasing structure</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-right">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-left">
+                  <span class="arrow"></span>
+                  <div class="date">Mar 2015 – Nov 2017</div>
+                  <h3>Supply Chain Management Manager</h3>
+                  <h4>Hitachi Construction Machinery Europe, Amsterdam</h4>
+                  <ul>
+                    <li>Leading Warehouse, Operational Procurement and Production Planning, around 70 employees</li>
+                    <li>Complete redesign of the warehouse, completed within three weeks during the summer shutdown</li>
+                    <li>Safety improvements, including better separation of pedestrian and forklift traffic</li>
+                    <li>Introducing an inventory management tool to reduce material shortages and production disruptions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-left">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-right">
+                  <span class="arrow"></span>
+                  <div class="date">2013 – 2015</div>
+                  <h3>Supply Chain Specialist</h3>
+                  <h4>Prysmian Group, Delft</h4>
+                  <p>ERP transition from BaaN to SAP and leadership of the implementation of a Manufacturing Execution System (MES).</p>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-right">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-left">
+                  <span class="arrow"></span>
+                  <div class="date">2011 – 2013</div>
+                  <h3>Logistics Manager HV Cable Factory</h3>
+                  <h4>Prysmian Group, Delft</h4>
+                  <p>Responsible for planning, material management, warehousing and shipping.</p>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-left">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-right">
+                  <span class="arrow"></span>
+                  <div class="date">2010 – 2011</div>
+                  <h3>Supply Chain Specialist</h3>
+                  <h4>Draka Nederland, Amsterdam</h4>
+                  <p>Implementation of Kanban and standardised planning processes across Dutch manufacturing sites.</p>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-right">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-left">
+                  <span class="arrow"></span>
+                  <div class="date">2008 – 2010</div>
+                  <h3>Forecast Demand Analyst</h3>
+                  <h4>Diageo, Amsterdam</h4>
+                  <p>Demand analysis and management reporting for the Latin American market.</p>
                 </div>
               </div>
             </div>
+          </div>
+          <p class="cv-download"><a class="btn btn-border" href="/assets/cv/CV-Annelies-van-der-Staaij-EN.pdf" download><svg class="icon"><use href="/assets/img/icons.svg#download"/></svg>Download my full CV (PDF)</a></p>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="animate-up">
+          <h2 class="section-title">Education &amp; training</h2>
+          <div class="timeline">
+            <div class="timeline-bar"></div>
+            <div class="timeline-inner">
+              <div class="timeline-box timeline-box-left">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-right">
+                  <span class="arrow"></span>
+                  <div class="date">2005 – 2008</div>
+                  <h3>Master's in Business Administration, Supply Chain Management</h3>
+                  <h4>RSM Erasmus University Rotterdam</h4>
+                </div>
+              </div>
+              <div class="timeline-box timeline-box-right">
+                <span class="dot"></span>
+                <div class="timeline-box-inner animate-left">
+                  <span class="arrow"></span>
+                  <div class="date">2001 – 2005</div>
+                  <h3>Industrial Engineering and Management</h3>
+                  <h4>Amsterdam University of Applied Sciences</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-box">
+            <h3 class="box-title">Certificates &amp; training</h3>
+            <ul class="cert-list">
+              <li><span class="cert-year">2023</span><strong>PMO</strong><span class="cert-org">WIN</span></li>
+              <li><span class="cert-year"></span><strong>Development Procurement Expertise</strong><span class="cert-org">NEVI</span></li>
+              <li><span class="cert-year">2015 – 2017</span><strong>Management training</strong><span class="cert-org">Hitachi in-house</span></li>
+              <li><span class="cert-year">2011</span><strong>TOP Talent Development Program</strong><span class="cert-org">De Baak</span></li>
+              <li><span class="cert-year">2011</span><strong>PRINCE2 Foundation &amp; Practitioner</strong><span class="cert-org"></span></li>
+            </ul>
           </div>
         </div>
       </section>
