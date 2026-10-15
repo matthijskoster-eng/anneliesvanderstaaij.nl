@@ -7,10 +7,7 @@
 /assets/*
   Cache-Control: public, max-age=604800
 
-# Test and preview hosts must never show up in search results.
-https://test.anneliesvanderstaaij.nl/*
-  X-Robots-Tag: noindex, nofollow
-
+# Preview hosts must never show up in search results.
 https://:project.pages.dev/*
   X-Robots-Tag: noindex, nofollow
 
