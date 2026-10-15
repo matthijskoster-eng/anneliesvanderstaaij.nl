@@ -1053,6 +1053,57 @@ blockquote p {
   }
 }
 
+/* Company logos */
+
+.logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px 36px;
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 24px 40px;
+  background: var(--box);
+  border-radius: 2px;
+  box-shadow: var(--shadow);
+}
+
+.logo-strip li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-strip li:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.logo-strip img {
+  width: auto;
+  max-width: 150px;
+  max-height: 30px;
+}
+
+.logo-word {
+  color: var(--title);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .logo-strip {
+    justify-content: center;
+    padding: 20px;
+  }
+}
+
 /* CV download */
 
 .cv-download {
