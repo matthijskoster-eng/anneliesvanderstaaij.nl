@@ -4,8 +4,18 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-/assets/*
+/assets/img/*
   Cache-Control: public, max-age=604800
+
+/assets/cv/*
+  Cache-Control: public, max-age=86400
+
+# CSS/JS: always revalidate, so style changes show up straight away.
+/assets/css/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/js/*
+  Cache-Control: public, max-age=0, must-revalidate
 
 # Preview hosts must never show up in search results.
 https://:project.pages.dev/*
