@@ -183,12 +183,10 @@ img {
   position: absolute;
   inset: 0;
   background-color: var(--dark);
-  background-image:
-    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.14) 0, transparent 45%),
-    radial-gradient(circle at 80% 70%, rgba(232, 103, 107, 0.18) 0, transparent 40%),
-    linear-gradient(135deg, #56657a 0%, #2c3340 60%, #1f252f 100%);
+  background-image: url("../img/header.jpg");
+  background-image: image-set(url("../img/header.webp") type("image/webp"), url("../img/header.jpg") type("image/jpeg"));
   background-size: cover;
-  background-position: center;
+  background-position: center 60%;
 }
 
 .head-bg::before {
