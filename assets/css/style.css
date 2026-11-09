@@ -231,23 +231,24 @@ img {
 }
 
 .logo {
-  font-family: "Fredoka One", "Open Sans", sans-serif;
-  font-size: 26px;
-  line-height: 1;
-  color: #fff;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-.logo:hover {
-  text-decoration: none;
+.logo img {
+  display: block;
+  width: auto;
+  height: 40px;
 }
 
-.logo span {
-  color: var(--theme);
+.logo .logo-dark,
+.head-bar.is-sticky .logo .logo-light {
+  display: none;
 }
 
-.head-bar.is-sticky .logo {
-  color: var(--title);
+.head-bar.is-sticky .logo .logo-dark {
+  display: block;
 }
 
 .head-nav {
@@ -434,8 +435,8 @@ img {
     padding: 0 16px;
   }
 
-  .logo {
-    font-size: 22px;
+  .logo img {
+    height: 34px;
   }
 }
 
