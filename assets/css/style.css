@@ -1,6 +1,6 @@
 /* Look and feel modelled on the RS Card "student" demo: a dark photo header,
    a profile card that overlaps it, white material-style section boxes,
-   Open Sans text with a Fredoka One logo, coral accent (#e8676b) and
+   Open Sans text with a Fredoka One logo, lavendel purple accent (#9a7fd1) and
    sections that slide into view while scrolling. All code here is our own. */
 
 @font-face {
@@ -20,9 +20,9 @@
 }
 
 :root {
-  --theme: #e8676b;
-  --theme-dark: #d9555a;
-  --theme-light: #fdeced;
+  --theme: #9a7fd1;
+  --theme-dark: #8361c6;
+  --theme-light: #f2eff8;
   --head-overlay: linear-gradient(rgba(44, 51, 64, 0.6), rgba(44, 51, 64, 0.3));
   --dark: #2c3340;
   --bg: #f2f3f7;
