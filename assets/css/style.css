@@ -1,6 +1,6 @@
 /* Look and feel modelled on the RS Card "student" demo: a dark photo header,
    a profile card that overlaps it, white material-style section boxes,
-   Open Sans text with a Fredoka One logo, plum (pruim) purple accent (#8b3d82) and
+   Open Sans text with Corinthia (script) for the logo, name and section titles, plum (pruim) purple accent (#8b3d82) and
    sections that slide into view while scrolling. All code here is our own. */
 
 @font-face {
@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: "Fredoka One";
-  src: url("../fonts/fredoka-one-latin.woff2") format("woff2");
+  font-family: "Corinthia";
+  src: url("../fonts/corinthia-latin.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -239,7 +239,7 @@ img {
 .logo img {
   display: block;
   width: auto;
-  height: 40px;
+  height: 52px;
 }
 
 .logo .logo-dark,
@@ -436,7 +436,7 @@ img {
   }
 
   .logo img {
-    height: 34px;
+    height: 44px;
   }
 }
 
@@ -458,10 +458,12 @@ img {
 }
 
 .section-title {
-  margin: 0 0 24px;
-  font-size: 26px;
-  font-weight: 300;
-  color: var(--title);
+  margin: 0 0 20px;
+  font-family: "Corinthia", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--theme);
 }
 
 .section-box {
@@ -664,14 +666,20 @@ img {
 }
 
 .profile-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: "Corinthia", cursive;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 1.05;
   color: var(--title);
 }
 
 .profile-title span {
+  display: block;
+  margin-bottom: 2px;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 1.4;
 }
 
 .profile-position {
@@ -757,7 +765,11 @@ img {
   }
 
   .profile-title {
-    font-size: 28px;
+    font-size: 50px;
+  }
+
+  .section-title {
+    font-size: 44px;
   }
 
   .profile-list,
