@@ -16,3 +16,8 @@ Workers & Pages, Create, Pages, Connect to Git, pick this repository. Framework 
 ## Image credits
 
 - Header photo: Stephan van de Schootbrugge on Unsplash (https://unsplash.com/photos/gsBpF0coHcs), Unsplash License.
+
+## Fonts
+
+- Open Sans (body text), SIL Open Font License 1.1.
+- Corinthia by Robert Leuschke (logo, name and section titles), SIL Open Font License 1.1, https://fonts.google.com/specimen/Corinthia. The logo SVGs contain the letters as paths, so they need no font.
